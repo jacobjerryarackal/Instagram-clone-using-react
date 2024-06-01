@@ -4,8 +4,12 @@
 }
 
 .suggestions_title{
+    margin-top: 5%;
     color: grey;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .username_left{
@@ -49,4 +53,17 @@
 
 .avatar{
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.see_button{
+    color: #fff;
+    font-weight: bold;
+    background: 0;
+    border: 0;
+}
+
+.see_button:hover{
+    color: #4c7b9b;
+    cursor: pointer;
 }
