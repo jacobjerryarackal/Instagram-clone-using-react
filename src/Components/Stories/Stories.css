@@ -1,0 +1,36 @@
+
+.stories {
+    display: flex;
+    flex: 0.7;
+    overflow-x: scroll;
+    padding: 10px;
+    border-radius: 10px;
+    background: 0;
+    scrollbar-width: none; 
+  }
+  
+  .stories::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .story {
+    flex: 0 0 auto;
+    margin-right: 12px;
+    text-align: center;
+  }
+  
+  .story__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ff8501;
+    padding: 2px;
+    cursor: pointer;
+  }
+  
+  .story__username {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
